@@ -101,19 +101,25 @@ class Home extends StatelessWidget {
           Container(
             height: 45,
             margin: EdgeInsets.all(10),
+            padding: EdgeInsets.all(3),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(5),
+              borderRadius: BorderRadius.circular(3),
               color: Colors.green,
             ),
-            child: Center(
-              child: Text(
+            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Text(
                 'Kamalbinayak, Muldhoka, Bhaktapur',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 14.0,
+                  fontSize: 18.0,
                 ),
               ),
-            ),
+              /*Text('01-6620209',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 16.0,
+                  ))*/
+            ]),
           )
         ]),
       ),
