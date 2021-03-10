@@ -99,7 +99,7 @@ class Home extends StatelessWidget {
             },
           ),
           Container(
-            height: 40,
+            height: 45,
             margin: EdgeInsets.all(10),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(5),
@@ -110,6 +110,7 @@ class Home extends StatelessWidget {
                 'Kamalbinayak, Muldhoka, Bhaktapur',
                 style: TextStyle(
                   color: Colors.white,
+                  fontSize: 14.0,
                 ),
               ),
             ),
